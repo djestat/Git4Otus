@@ -152,7 +152,7 @@ struct ItemDetailsScreen: View {
     var item: ItemModel
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading, spacing: 16) {
             Text(item.article.title ?? "no title")
             
             Text(item.article.url)
@@ -188,7 +188,7 @@ struct ImagePreviewScreen: View {
             }
 
         }
-        .navigationTitle("Details")
+        .navigationTitle("Image Preview")
     }
     
 }
