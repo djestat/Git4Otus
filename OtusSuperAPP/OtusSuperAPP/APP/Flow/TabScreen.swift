@@ -27,9 +27,8 @@ final class TabScreenCoordinator: ObservableObject {
     let listViewModel: ListViewModel = .init()
     
     //MARK: Inputs
-    func toRandomItemInList() {
+    func toList() {
         selectedTab = .list
-        listViewModel.needShowRandomItem = true
     }
     
 }

@@ -6,7 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		78AC87BB2D0DD86F00F04C6F /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = 78AC87BA2D0DD86F00F04C6F /* Networking */; };
+		78AC87BD2D0DDC4300F04C6F /* gen_newsapi.sh in Resources */ = {isa = PBXBuildFile; fileRef = 78AC87BC2D0DDC4300F04C6F /* gen_newsapi.sh */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		78AC87BC2D0DDC4300F04C6F /* gen_newsapi.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = gen_newsapi.sh; sourceTree = "<group>"; };
 		78AD9A3C2CF99EBD00341709 /* OtusSuperAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtusSuperAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -23,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78AC87BB2D0DD86F00F04C6F /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,6 +39,7 @@
 		78AD9A332CF99EBD00341709 = {
 			isa = PBXGroup;
 			children = (
+				78AC87BC2D0DDC4300F04C6F /* gen_newsapi.sh */,
 				78AD9A3E2CF99EBD00341709 /* OtusSuperAPP */,
 				78AD9A3D2CF99EBD00341709 /* Products */,
 			);
@@ -65,6 +73,7 @@
 			);
 			name = OtusSuperAPP;
 			packageProductDependencies = (
+				78AC87BA2D0DD86F00F04C6F /* Networking */,
 			);
 			productName = OtusSuperAPP;
 			productReference = 78AD9A3C2CF99EBD00341709 /* OtusSuperAPP.app */;
@@ -78,7 +87,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1610;
-				LastUpgradeCheck = 1610;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					78AD9A3B2CF99EBD00341709 = {
 						CreatedOnToolsVersion = 16.1;
@@ -94,6 +103,9 @@
 			);
 			mainGroup = 78AD9A332CF99EBD00341709;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				78AC87B92D0DD86F00F04C6F /* XCLocalSwiftPackageReference "Modules/Networking" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 78AD9A3D2CF99EBD00341709 /* Products */;
 			projectDirPath = "";
@@ -109,6 +121,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78AC87BD2D0DDC4300F04C6F /* gen_newsapi.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +172,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -220,6 +234,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -247,6 +262,7 @@
 				CODE_SIGN_ENTITLEMENTS = OtusSuperAPP/OtusSuperAPP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"OtusSuperAPP/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -285,6 +301,7 @@
 				CODE_SIGN_ENTITLEMENTS = OtusSuperAPP/OtusSuperAPP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"OtusSuperAPP/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -337,6 +354,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		78AC87B92D0DD86F00F04C6F /* XCLocalSwiftPackageReference "Modules/Networking" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Modules/Networking;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78AC87BA2D0DD86F00F04C6F /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 78AD9A342CF99EBD00341709 /* Project object */;
 }

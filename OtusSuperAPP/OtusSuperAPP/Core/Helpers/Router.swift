@@ -9,6 +9,7 @@ import SwiftUI
 
 enum RouteScreen: Hashable {
     case detail(ItemModel)
+    case imagePreview(URL?)
 }
 
 class Router: ObservableObject {
@@ -33,6 +34,7 @@ class Router: ObservableObject {
     func view(for route: RouteScreen) -> some View {
         switch route {
         case .detail(let item): ItemDetailsScreen(item: item)
+        case .imagePreview(let url): ImagePreviewScreen(itemURL: url)
         }
     }
     
