@@ -8,6 +8,7 @@
 import SwiftUI
 
 enum TabSelection: Hashable {
+    
     case main, list, modal
     
     func icon(_ isSelected: Bool) -> String {
@@ -24,12 +25,12 @@ final class TabScreenCoordinator: ObservableObject {
     
     @Published var selectedTab: TabSelection = .main
     
-    let listViewModel: ListViewModel = .init()
+    let listCoordinator: ListScreenCoordinator = .init()
     
     //MARK: Inputs
-    func toRandomItemInList() {
+    func toListWithRandomItemIn() {
         selectedTab = .list
-        listViewModel.needShowRandomItem = true
+        listCoordinator.needShowRandomItem = true
     }
     
 }
@@ -40,16 +41,16 @@ struct TabScreen: View {
     
     var body: some View {
         TabView(selection: $coordinator.selectedTab) {
-            
             MainTabScreen()
                 .tag(TabSelection.main)
                 .tabItem { tabItemFor(.main) }
             
             RouterView {
-                ListTabScreen(viewModel: coordinator.listViewModel)
+                ListTabScreen()
             }
             .tag(TabSelection.list)
             .tabItem { tabItemFor(.list)  }
+            .environmentObject(coordinator.listCoordinator)
 
             ModalTabScreen()
                 .tag(TabSelection.modal)

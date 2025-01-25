@@ -14,7 +14,7 @@ struct MainTabScreen: View {
     var body: some View {
         VStack {
             Button {
-                coordinator.toRandomItemInList()
+                coordinator.toListWithRandomItemIn()
             } label: {
                 Text("Show random item on the list")
             }

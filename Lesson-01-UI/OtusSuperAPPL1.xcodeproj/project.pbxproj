@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		78AD9A3C2CF99EBD00341709 /* OtusSuperAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtusSuperAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78AD9A3C2CF99EBD00341709 /* OtusSuperAPPL1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OtusSuperAPPL1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		78AD9A3D2CF99EBD00341709 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78AD9A3C2CF99EBD00341709 /* OtusSuperAPP.app */,
+				78AD9A3C2CF99EBD00341709 /* OtusSuperAPPL1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		78AD9A3B2CF99EBD00341709 /* OtusSuperAPP */ = {
+		78AD9A3B2CF99EBD00341709 /* OtusSuperAPPL1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78AD9A4B2CF99EBE00341709 /* Build configuration list for PBXNativeTarget "OtusSuperAPP" */;
+			buildConfigurationList = 78AD9A4B2CF99EBE00341709 /* Build configuration list for PBXNativeTarget "OtusSuperAPPL1" */;
 			buildPhases = (
 				78AD9A382CF99EBD00341709 /* Sources */,
 				78AD9A392CF99EBD00341709 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				78AD9A3E2CF99EBD00341709 /* OtusSuperAPP */,
 			);
-			name = OtusSuperAPP;
+			name = OtusSuperAPPL1;
 			packageProductDependencies = (
 			);
 			productName = OtusSuperAPP;
-			productReference = 78AD9A3C2CF99EBD00341709 /* OtusSuperAPP.app */;
+			productReference = 78AD9A3C2CF99EBD00341709 /* OtusSuperAPPL1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 78AD9A372CF99EBD00341709 /* Build configuration list for PBXProject "OtusSuperAPP" */;
+			buildConfigurationList = 78AD9A372CF99EBD00341709 /* Build configuration list for PBXProject "OtusSuperAPPL1" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78AD9A3B2CF99EBD00341709 /* OtusSuperAPP */,
+				78AD9A3B2CF99EBD00341709 /* OtusSuperAPPL1 */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sometech.OtusSuperAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -306,7 +306,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.sometech.OtusSuperAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -318,7 +318,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		78AD9A372CF99EBD00341709 /* Build configuration list for PBXProject "OtusSuperAPP" */ = {
+		78AD9A372CF99EBD00341709 /* Build configuration list for PBXProject "OtusSuperAPPL1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78AD9A492CF99EBE00341709 /* Debug */,
@@ -327,7 +327,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78AD9A4B2CF99EBE00341709 /* Build configuration list for PBXNativeTarget "OtusSuperAPP" */ = {
+		78AD9A4B2CF99EBE00341709 /* Build configuration list for PBXNativeTarget "OtusSuperAPPL1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78AD9A4C2CF99EBE00341709 /* Debug */,

@@ -28,12 +28,4 @@ class Router: ObservableObject {
         path.removeLast(path.count)
     }
     
-    //MARK: View
-    @ViewBuilder
-    func view(for route: RouteScreen) -> some View {
-        switch route {
-        case .detail(let item): ItemDetailsScreen(item: item)
-        }
-    }
-    
 }
