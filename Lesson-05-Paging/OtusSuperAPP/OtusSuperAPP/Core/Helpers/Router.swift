@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-enum RouteScreen: Hashable {
-    case detail(ItemModel)
-    case imagePreview(URL?)
-}
-
 class Router: ObservableObject {
     
     @Published var path: NavigationPath = NavigationPath()
@@ -27,15 +22,6 @@ class Router: ObservableObject {
     
     func popToRoot() {
         path.removeLast(path.count)
-    }
-    
-    //MARK: View
-    @ViewBuilder
-    func view(for route: RouteScreen) -> some View {
-        switch route {
-        case .detail(let item): ItemDetailsScreen(item: item)
-        case .imagePreview(let url): ImagePreviewScreen(itemURL: url)
-        }
     }
     
 }
