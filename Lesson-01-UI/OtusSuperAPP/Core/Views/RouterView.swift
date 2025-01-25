@@ -7,10 +7,21 @@
 
 import SwiftUI
 
+
+final class ViewFactory {
+    
+    @ViewBuilder
+    func view(for route: RouteScreen) -> some View {
+        switch route {
+        case .detail(let item): ItemDetailsScreen(item: item)
+        }
+    }
+}
+
 struct RouterView<Content: View>: View {
     
     @StateObject var router: Router = Router()
-   
+    private let viewFactory: ViewFactory = .init()
     private let content: Content
     
     //MARK: - Init
@@ -22,7 +33,7 @@ struct RouterView<Content: View>: View {
         NavigationStack(path: $router.path) {
             content
                 .navigationDestination(for: RouteScreen.self) { route in
-                    router.view(for: route)
+                    viewFactory.view(for: route)
                 }
         }
         .environmentObject(router)

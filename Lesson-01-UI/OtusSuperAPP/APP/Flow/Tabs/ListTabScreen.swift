@@ -23,14 +23,19 @@ final class ListViewModel: ObservableObject {
                                          ItemModel("🎶"), ItemModel("🎨"), ItemModel("👟"),
                                          ItemModel("👠"), ItemModel(" 👡"), ItemModel("👞")]
     
-    @Published var needShowRandomItem: Bool = false
+}
+
+final class ListScreenCoordinator: ObservableObject {
     
+    @Published var needShowRandomItem: Bool = false
+
 }
 
 struct ListTabScreen: View {
     
+    @EnvironmentObject var coordinator: ListScreenCoordinator
     @EnvironmentObject var router: Router
-    @ObservedObject var viewModel: ListViewModel
+    @StateObject var viewModel: ListViewModel = .init()
 
     var body: some View {
         List {
@@ -40,11 +45,11 @@ struct ListTabScreen: View {
         }
         .navigationTitle("List")
         .onAppear {
-            if viewModel.needShowRandomItem {
+            if coordinator.needShowRandomItem {
                 if let item = viewModel.items.randomElement() {
                     router.navigateTo(.detail(item))
                 }
-                viewModel.needShowRandomItem = false
+                coordinator.needShowRandomItem = false
             }
         }
     }
