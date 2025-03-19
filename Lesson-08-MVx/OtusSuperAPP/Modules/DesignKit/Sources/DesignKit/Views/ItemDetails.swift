@@ -14,5 +14,5 @@ struct ItemDetailsView: View {
 }
 
 #Preview {
-    SwiftUIView()
+    ItemDetailsView()
 }
