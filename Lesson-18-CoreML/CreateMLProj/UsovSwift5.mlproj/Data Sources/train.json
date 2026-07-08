@@ -1,0 +1,51 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-05-29T17:57:15Z",
+        "event" : "dataSourceCreated",
+        "id" : "4D03A1BA-BDAD-4562-8F2A-B12B47B3839F",
+        "subtitle" : "train",
+        "title" : "Data Source Created"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-05-29T17:57:22Z",
+        "event" : "dataSourceMetrics",
+        "id" : "C3836013-C718-4207-BADA-19CA1348BAA7",
+        "subtitle" : "39 Classes, 535 Items",
+        "title" : "Data Summary"
+      }
+    ],
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-05-29T17:57:22Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "6C1DA817-976C-4614-A956-B519197FE4D4",
+        "subtitle" : "UsovSwift5 1",
+        "title" : "Used By"
+      }
+    ]
+  ],
+  "createdDate" : "2026-05-29T17:57:15Z",
+  "dataPathRelativeToProjectURL" : "../../../../../../../Work/KCClaude/Experimentals/MLDataModels/TrainData/Swift%20%D0%A3%D1%81%D0%BE%D0%B2%206%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5/train/",
+  "dataResult" : {
+    "createdDate" : "2026-05-29T17:57:15Z",
+    "dataSourceID" : "27FF71EA-2347-4881-B891-DD85A560E21D",
+    "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/Swift%20%D0%A3%D1%81%D0%BE%D0%B2%206%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5/train/"
+  },
+  "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/Swift%20%D0%A3%D1%81%D0%BE%D0%B2%206%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5/train/",
+  "experimentIDs" : [
+    "B1F0BDB7-51B4-47E7-8AB3-F88375735FDE"
+  ],
+  "id" : "27FF71EA-2347-4881-B891-DD85A560E21D",
+  "modifiedDate" : "2026-05-29T17:57:22Z",
+  "pathType" : 0,
+  "preferredFilename" : "train",
+  "title" : "train",
+  "version" : "1.0"
+}

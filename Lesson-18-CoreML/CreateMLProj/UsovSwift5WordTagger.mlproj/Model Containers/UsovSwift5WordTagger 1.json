@@ -1,0 +1,200 @@
+{
+  "activityEntities" : [
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-05-29T18:00:09Z",
+        "event" : "trainingDataAdded",
+        "id" : "5582095C-FD00-42AF-B271-AE9EE3CBD17D",
+        "subtitle" : "test.json",
+        "title" : "Training Data Added"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-05-29T17:59:18Z",
+        "event" : "experimentCreated",
+        "id" : "7FEF1C16-BACC-4F02-A945-1170D5716C98",
+        "subtitle" : "UsovSwift5WordTagger 1",
+        "title" : "Model Source Created"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-05-29T17:59:18Z"
+  },
+  "createdDate" : "2026-05-29T17:59:18Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-05-29T18:00:09Z",
+    "evaluationEntities" : [
+
+    ],
+    "id" : "d6563a4f-307a-4745-8671-b0553c209fa9",
+    "modifiedDate" : "2026-05-29T18:00:09Z",
+    "previewType" : "wordTagger",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-05-29T17:59:18Z",
+      "dataResult" : {
+        "createdDate" : "2026-05-29T17:59:18Z"
+      },
+      "id" : "f7350da6-9843-4e32-8844-bb794dab317c"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-05-29T17:59:18Z",
+      "dataResult" : {
+        "createdDate" : "2026-05-29T17:59:18Z"
+      },
+      "id" : "c195517e-fc2b-43ae-a1b7-caca39b6b6b7"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-05-29T17:59:18Z",
+      "dataResult" : {
+        "createdDate" : "2026-05-29T17:59:18Z"
+      },
+      "id" : "bbfe79d6-ddc9-437e-bf3e-1019e181ae5b"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "46a08f29-4079-49b2-96ce-015ec43a1976"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "CAD669A6-4479-4AAA-9336-43BB5A8FF57F",
+  "modelEntity" : {
+    "createdDate" : "2026-05-29T17:59:18Z",
+    "experimentID" : "CAD669A6-4479-4AAA-9336-43BB5A8FF57F",
+    "id" : "3E284464-5A8E-4762-B17D-E8C064734C92",
+    "modifiedDate" : "2026-05-29T17:59:18Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-05-29T18:00:09Z",
+  "preferredFilename" : "UsovSwift5WordTagger 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "suggestedColumnTypes" : [
+      "Sequence",
+      "Sequence"
+    ],
+    "suggestedColumnValues" : [
+      "",
+      ""
+    ],
+    "suggestedColumns" : [
+      "label",
+      "text"
+    ],
+    "taskType" : "wordTagger",
+    "transferLearningEmbeddingType" : "dynamic",
+    "wtAlgorithmType" : "crf"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "uninitialized",
+  "title" : "UsovSwift5WordTagger 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+
+    },
+    "dataResult" : {
+      "classesCount" : 0,
+      "columnTypes" : [
+        "Sequence",
+        "Sequence"
+      ],
+      "columnValues" : [
+        "",
+        ""
+      ],
+      "columns" : [
+        "label",
+        "text"
+      ],
+      "createdDate" : "2026-05-29T17:59:18Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+
+        },
+        "issues" : [
+          {
+            "description" : "File has two or more columns",
+            "severity" : "info"
+          },
+          {
+            "description" : "No labels selected",
+            "severity" : "notReady"
+          },
+          {
+            "description" : "Label count is less than token count.",
+            "severity" : "info"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 1,
+          "classCount" : 0,
+          "sampleCount" : 125
+        }
+      },
+      "dataSourceID" : "6EFF3014-FF5F-4BB8-9F32-5997BB83CC37",
+      "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/Swift%20%D0%A3%D1%81%D0%BE%D0%B2%206%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5/test.json",
+      "error" : {
+        "code" : 1000,
+        "domain" : "composer.error.domain",
+        "errorType" : "notReady",
+        "reason" : "No labels selected"
+      },
+      "itemsCount" : 125
+    },
+    "dataSourceID" : "6EFF3014-FF5F-4BB8-9F32-5997BB83CC37",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "progress" : [
+
+    ],
+    "snapshottableCheckpoints" : {
+
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-05-29T17:59:18Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

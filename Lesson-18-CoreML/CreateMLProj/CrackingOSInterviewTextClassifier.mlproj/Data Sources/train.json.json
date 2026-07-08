@@ -1,0 +1,51 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-05-29T18:03:05Z",
+        "event" : "dataSourceCreated",
+        "id" : "EF60CD58-0C4F-4BAA-9D9B-6ABC1D97ABA8",
+        "subtitle" : "train.json",
+        "title" : "Data Source Created"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-05-29T18:03:11Z",
+        "event" : "dataSourceMetrics",
+        "id" : "BFCAEEA1-8B81-4B81-905C-4009D0182290",
+        "subtitle" : "16 Classes, 169 Items",
+        "title" : "Data Summary"
+      }
+    ],
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-05-29T18:03:11Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "670972C9-10E9-4414-80D5-6BA6B40BDACC",
+        "subtitle" : "CrackingOSInterviewTextClassifier 1",
+        "title" : "Used By"
+      }
+    ]
+  ],
+  "createdDate" : "2026-05-29T18:03:05Z",
+  "dataPathRelativeToProjectURL" : "../../../../../../../Work/KCClaude/Experimentals/MLDataModels/TrainData/CrackingtheiOSInterview_v1.0/train.json/",
+  "dataResult" : {
+    "createdDate" : "2026-05-29T18:03:05Z",
+    "dataSourceID" : "A8A4CB8D-C5FB-4434-A96B-5449F99EC596",
+    "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/CrackingtheiOSInterview_v1.0/train.json"
+  },
+  "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/CrackingtheiOSInterview_v1.0/train.json",
+  "experimentIDs" : [
+    "B24DC793-7C74-48F8-8964-9CA8F49A4A3A"
+  ],
+  "id" : "A8A4CB8D-C5FB-4434-A96B-5449F99EC596",
+  "modifiedDate" : "2026-05-29T18:03:11Z",
+  "pathType" : 0,
+  "preferredFilename" : "train.json",
+  "title" : "train.json",
+  "version" : "1.0"
+}

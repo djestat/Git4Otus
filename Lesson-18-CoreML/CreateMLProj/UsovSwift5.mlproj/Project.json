@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-05-29T17:57:05Z",
+        "event" : "projectCreated",
+        "id" : "62239687-B79B-4546-8142-6872F1F4E703",
+        "subtitle" : "UsovSwift5",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Igor",
+  "createdDate" : "2026-05-29T17:57:05Z",
+  "description" : "",
+  "id" : "AC3F59BA-16B4-4E55-8329-BC5656EEE04D",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-05-29T17:57:05Z",
+  "projectName" : "UsovSwift5",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "textClassifier",
+  "title" : "Text Classification",
+  "version" : "1.1"
+}

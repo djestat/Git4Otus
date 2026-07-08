@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-05-29T18:02:58Z",
+        "event" : "projectCreated",
+        "id" : "0E9AE4B1-578C-4A25-AAC6-6285E36F2704",
+        "subtitle" : "CrackingOSInterviewTextClassifier",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Igor",
+  "createdDate" : "2026-05-29T18:02:58Z",
+  "description" : "",
+  "id" : "11A36631-B32E-4467-BDB8-69A65EF05C67",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-05-29T18:02:58Z",
+  "projectName" : "CrackingOSInterviewTextClassifier",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "textClassifier",
+  "title" : "Text Classification",
+  "version" : "1.1"
+}

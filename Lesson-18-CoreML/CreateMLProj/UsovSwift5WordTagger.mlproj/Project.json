@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-05-29T17:59:17Z",
+        "event" : "projectCreated",
+        "id" : "CEECB30E-E9A4-4D58-A476-4C29876B9F94",
+        "subtitle" : "UsovSwift5WordTagger",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Igor",
+  "createdDate" : "2026-05-29T17:59:17Z",
+  "description" : "",
+  "id" : "D0C80853-0FF0-4B8B-AC66-B474AD52406B",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-05-29T17:59:17Z",
+  "projectName" : "UsovSwift5WordTagger",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "wordTagger",
+  "title" : "Word Tagging",
+  "version" : "1.1"
+}

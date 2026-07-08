@@ -1,0 +1,22 @@
+{
+  "activityEntities" : [
+
+  ],
+  "createdDate" : "2026-05-29T18:10:56Z",
+  "dataPathRelativeToProjectURL" : "../../../../../../../Work/KCClaude/Experimentals/MLDataModels/TrainData/SwiftAI/test.json/",
+  "dataResult" : {
+    "createdDate" : "2026-05-29T18:10:56Z",
+    "dataSourceID" : "07B441B7-DC61-4C9F-9176-EC2ACF2EA762",
+    "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/SwiftAI/test.json"
+  },
+  "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/SwiftAI/test.json",
+  "experimentIDs" : [
+    "7E1C4547-8A94-4E42-BECF-5E65AD8127E5"
+  ],
+  "id" : "07B441B7-DC61-4C9F-9176-EC2ACF2EA762",
+  "modifiedDate" : "2026-05-29T18:10:56Z",
+  "pathType" : 0,
+  "preferredFilename" : "test.json",
+  "title" : "test.json",
+  "version" : "1.0"
+}

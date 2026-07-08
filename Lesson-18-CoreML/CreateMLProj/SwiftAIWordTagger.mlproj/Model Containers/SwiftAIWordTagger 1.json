@@ -1,0 +1,1301 @@
+{
+  "activityEntities" : [
+    "evaluationFinished",
+    [
+      {
+        "createdDate" : "2026-05-29T18:11:07Z",
+        "event" : "evaluationFinished",
+        "id" : "632DCA1E-57B0-4B07-9898-01BCF3F40CB1",
+        "subtitle" : "SwiftAIWordTagger 1",
+        "title" : "Testing Completed"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-05-29T18:04:37Z",
+        "event" : "experimentCreated",
+        "id" : "15751660-8EAC-4CCB-AFAF-64A6144B30E5",
+        "subtitle" : "SwiftAIWordTagger 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-05-29T18:11:00Z",
+        "event" : "trainingStarted",
+        "id" : "8CC7BFBD-C3D8-430F-81E0-516E5A728C91",
+        "subtitle" : "25 iterations",
+        "title" : "Training Started"
+      }
+    ],
+    "evaluationStarted",
+    [
+      {
+        "createdDate" : "2026-05-29T18:11:04Z",
+        "event" : "evaluationStarted",
+        "id" : "6F16FE71-9504-4B0A-952B-D49EE67C80C0",
+        "subtitle" : "SwiftAIWordTagger 1",
+        "title" : "Testing Started"
+      }
+    ],
+    "evaluationDataAdded",
+    [
+      {
+        "createdDate" : "2026-05-29T18:10:56Z",
+        "event" : "evaluationDataAdded",
+        "id" : "B3BA132C-82EC-49E5-A9CD-8A5BAA94A7A6",
+        "subtitle" : "test.json",
+        "title" : "Testing Data Added"
+      }
+    ],
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-05-29T18:10:34Z",
+        "event" : "trainingDataAdded",
+        "id" : "CB82572F-73BB-48DC-B080-6F3175755A73",
+        "subtitle" : "train.json",
+        "title" : "Training Data Added"
+      }
+    ],
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-05-29T18:11:02Z",
+        "event" : "trainingFinished",
+        "id" : "F38DF2A5-3548-4BD6-A5AE-86E4007CD37A",
+        "subtitle" : "Model converged at 8 iterations",
+        "title" : "Training Completed"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-05-29T18:04:37Z"
+  },
+  "createdDate" : "2026-05-29T18:04:37Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-05-29T18:11:07Z",
+    "evaluationEntities" : [
+
+    ],
+    "id" : "5b9c6b58-0fe9-4cda-b5e6-28cc91ff3d5b",
+    "modifiedDate" : "2026-05-29T18:11:07Z",
+    "previewType" : "wordTagger",
+    "testingEvaluationEntity" : {
+      "accuracy" : 0.9638655185699463,
+      "analysedDataType" : "datasource",
+      "createdDate" : "2026-05-29T18:04:37Z",
+      "dataResult" : {
+        "classesCount" : 6,
+        "columnTypes" : [
+          "Sequence",
+          "Sequence"
+        ],
+        "columnValues" : [
+          "",
+          ""
+        ],
+        "columns" : [
+          "labels",
+          "tokens"
+        ],
+        "createdDate" : "2026-05-29T18:04:37Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+
+          },
+          "issues" : [
+            {
+              "description" : "File has two or more columns",
+              "severity" : "info"
+            },
+            {
+              "description" : "Columns are correctly selected",
+              "severity" : "info"
+            },
+            {
+              "description" : "Label count is less than token count.",
+              "severity" : "info"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 1,
+            "classCount" : 6,
+            "sampleCount" : 81
+          }
+        },
+        "dataSourceID" : "07B441B7-DC61-4C9F-9176-EC2ACF2EA762",
+        "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/SwiftAI/test.json",
+        "itemsCount" : 81
+      },
+      "dataSourceID" : "07B441B7-DC61-4C9F-9176-EC2ACF2EA762",
+      "evaluationResult" : {
+        "wordTagger" : {
+          "accuracy" : 0.9638655185699463,
+          "statsByLabel" : {
+            "IDENTIFIER" : {
+              "count" : 334,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9389830231666565,
+                  "recall" : 0.8293412923812866
+                }
+              }
+            },
+            "KEYWORD" : {
+              "count" : 94,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9887640476226807,
+                  "recall" : 0.936170220375061
+                }
+              }
+            },
+            "LITERAL" : {
+              "count" : 70,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.75,
+                  "recall" : 0.9428571462631226
+                }
+              }
+            },
+            "O" : {
+              "count" : 2423,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9696479439735413,
+                  "recall" : 0.9888567924499512
+                }
+              }
+            },
+            "SYMBOL" : {
+              "count" : 550,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9761029481887817,
+                  "recall" : 0.9654545187950134
+                }
+              }
+            },
+            "TYPE" : {
+              "count" : 99,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 0.8383838534355164
+                }
+              }
+            }
+          }
+        }
+      },
+      "finishTime" : "2026-05-29T18:11:07Z",
+      "id" : "58f6e184-dbc2-48d5-b7e0-afc823960867",
+      "startTime" : "2026-05-29T18:11:04Z"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-05-29T18:04:37Z",
+      "dataResult" : {
+        "classesCount" : 6,
+        "createdDate" : "2026-05-29T18:04:37Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+
+          },
+          "issues" : [
+            {
+              "description" : "File has two or more columns",
+              "severity" : "info"
+            },
+            {
+              "description" : "Columns are correctly selected",
+              "severity" : "info"
+            },
+            {
+              "description" : "Label count is less than token count.",
+              "severity" : "info"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 1,
+            "classCount" : 6,
+            "sampleCount" : 386
+          }
+        },
+        "dataSourceID" : "477A9D2E-3A8F-42D0-831E-C95F7DAD1172",
+        "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/SwiftAI/train.json",
+        "itemsCount" : 386
+      },
+      "dataSourceID" : "477A9D2E-3A8F-42D0-831E-C95F7DAD1172",
+      "evaluationResult" : {
+        "wordTagger" : {
+          "accuracy" : 0.971968349383549,
+          "confusionMatrix" : [
+            {
+              "actual" : "IDENTIFIER",
+              "count" : 1699,
+              "expected" : "IDENTIFIER"
+            },
+            {
+              "actual" : "IDENTIFIER",
+              "count" : 16,
+              "expected" : "LITERAL"
+            },
+            {
+              "actual" : "IDENTIFIER",
+              "count" : 139,
+              "expected" : "O"
+            },
+            {
+              "actual" : "IDENTIFIER",
+              "count" : 28,
+              "expected" : "SYMBOL"
+            },
+            {
+              "actual" : "IDENTIFIER",
+              "count" : 1,
+              "expected" : "TYPE"
+            },
+            {
+              "actual" : "KEYWORD",
+              "count" : 2,
+              "expected" : "IDENTIFIER"
+            },
+            {
+              "actual" : "KEYWORD",
+              "count" : 456,
+              "expected" : "KEYWORD"
+            },
+            {
+              "actual" : "KEYWORD",
+              "count" : 11,
+              "expected" : "O"
+            },
+            {
+              "actual" : "LITERAL",
+              "count" : 3,
+              "expected" : "IDENTIFIER"
+            },
+            {
+              "actual" : "LITERAL",
+              "count" : 443,
+              "expected" : "LITERAL"
+            },
+            {
+              "actual" : "LITERAL",
+              "count" : 6,
+              "expected" : "O"
+            },
+            {
+              "actual" : "LITERAL",
+              "count" : 1,
+              "expected" : "SYMBOL"
+            },
+            {
+              "actual" : "O",
+              "count" : 5,
+              "expected" : "IDENTIFIER"
+            },
+            {
+              "actual" : "O",
+              "count" : 100,
+              "expected" : "LITERAL"
+            },
+            {
+              "actual" : "O",
+              "count" : 9790,
+              "expected" : "O"
+            },
+            {
+              "actual" : "O",
+              "count" : 9,
+              "expected" : "SYMBOL"
+            },
+            {
+              "actual" : "O",
+              "count" : 1,
+              "expected" : "TYPE"
+            },
+            {
+              "actual" : "SYMBOL",
+              "count" : 23,
+              "expected" : "IDENTIFIER"
+            },
+            {
+              "actual" : "SYMBOL",
+              "count" : 17,
+              "expected" : "LITERAL"
+            },
+            {
+              "actual" : "SYMBOL",
+              "count" : 40,
+              "expected" : "O"
+            },
+            {
+              "actual" : "SYMBOL",
+              "count" : 2886,
+              "expected" : "SYMBOL"
+            },
+            {
+              "actual" : "SYMBOL",
+              "count" : 6,
+              "expected" : "TYPE"
+            },
+            {
+              "actual" : "TYPE",
+              "count" : 49,
+              "expected" : "O"
+            },
+            {
+              "actual" : "TYPE",
+              "count" : 572,
+              "expected" : "TYPE"
+            }
+          ],
+          "statsByLabel" : {
+            "IDENTIFIER" : {
+              "count" : 1883,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.98094688221709,
+                  "recall" : 0.9022835900159321
+                }
+              }
+            },
+            "KEYWORD" : {
+              "count" : 469,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 0.9722814498933902
+                }
+              }
+            },
+            "LITERAL" : {
+              "count" : 453,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.7690972222222222,
+                  "recall" : 0.977924944812362
+                }
+              }
+            },
+            "O" : {
+              "count" : 9905,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9755854509217738,
+                  "recall" : 0.9883897021706209
+                }
+              }
+            },
+            "SYMBOL" : {
+              "count" : 2972,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9870041039671683,
+                  "recall" : 0.9710632570659489
+                }
+              }
+            },
+            "TYPE" : {
+              "count" : 621,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9862068965517241,
+                  "recall" : 0.9210950080515298
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "496bae38-2484-4548-bd89-4a8034d9fb88"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-05-29T18:04:37Z",
+      "dataResult" : {
+        "createdDate" : "2026-05-29T18:04:37Z"
+      },
+      "evaluationResult" : {
+        "wordTagger" : {
+          "accuracy" : 0.9407766990291262,
+          "confusionMatrix" : [
+            {
+              "actual" : "IDENTIFIER",
+              "count" : 139,
+              "expected" : "IDENTIFIER"
+            },
+            {
+              "actual" : "IDENTIFIER",
+              "count" : 1,
+              "expected" : "LITERAL"
+            },
+            {
+              "actual" : "IDENTIFIER",
+              "count" : 11,
+              "expected" : "O"
+            },
+            {
+              "actual" : "IDENTIFIER",
+              "count" : 2,
+              "expected" : "SYMBOL"
+            },
+            {
+              "actual" : "KEYWORD",
+              "count" : 49,
+              "expected" : "KEYWORD"
+            },
+            {
+              "actual" : "KEYWORD",
+              "count" : 2,
+              "expected" : "O"
+            },
+            {
+              "actual" : "KEYWORD",
+              "count" : 1,
+              "expected" : "TYPE"
+            },
+            {
+              "actual" : "LITERAL",
+              "count" : 28,
+              "expected" : "LITERAL"
+            },
+            {
+              "actual" : "LITERAL",
+              "count" : 5,
+              "expected" : "O"
+            },
+            {
+              "actual" : "LITERAL",
+              "count" : 2,
+              "expected" : "SYMBOL"
+            },
+            {
+              "actual" : "O",
+              "count" : 8,
+              "expected" : "LITERAL"
+            },
+            {
+              "actual" : "O",
+              "count" : 510,
+              "expected" : "O"
+            },
+            {
+              "actual" : "O",
+              "count" : 5,
+              "expected" : "SYMBOL"
+            },
+            {
+              "actual" : "O",
+              "count" : 2,
+              "expected" : "TYPE"
+            },
+            {
+              "actual" : "SYMBOL",
+              "count" : 2,
+              "expected" : "IDENTIFIER"
+            },
+            {
+              "actual" : "SYMBOL",
+              "count" : 9,
+              "expected" : "O"
+            },
+            {
+              "actual" : "SYMBOL",
+              "count" : 217,
+              "expected" : "SYMBOL"
+            },
+            {
+              "actual" : "TYPE",
+              "count" : 11,
+              "expected" : "O"
+            },
+            {
+              "actual" : "TYPE",
+              "count" : 26,
+              "expected" : "TYPE"
+            }
+          ],
+          "statsByLabel" : {
+            "IDENTIFIER" : {
+              "count" : 153,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9858156028368794,
+                  "recall" : 0.9084967320261438
+                }
+              }
+            },
+            "KEYWORD" : {
+              "count" : 52,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 0.9423076923076923
+                }
+              }
+            },
+            "LITERAL" : {
+              "count" : 35,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.7567567567567568,
+                  "recall" : 0.8
+                }
+              }
+            },
+            "O" : {
+              "count" : 525,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9306569343065694,
+                  "recall" : 0.9714285714285714
+                }
+              }
+            },
+            "SYMBOL" : {
+              "count" : 228,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.9601769911504425,
+                  "recall" : 0.9517543859649122
+                }
+              }
+            },
+            "TYPE" : {
+              "count" : 37,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 0.896551724137931,
+                  "recall" : 0.7027027027027027
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "0d5e2197-d949-4b7a-8ac5-7b8ee11e5744"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "d9531903-60c1-43aa-bdcf-f771faea6dc3"
+  },
+  "evaluationState" : "evaluated",
+  "id" : "7E1C4547-8A94-4E42-BECF-5E65AD8127E5",
+  "modelEntity" : {
+    "createdDate" : "2026-05-29T18:04:37Z",
+    "experimentID" : "7E1C4547-8A94-4E42-BECF-5E65AD8127E5",
+    "id" : "6C95D38C-4AB9-49F0-9EDF-D0E4FFEEAC66",
+    "modelURL" : "Models/SwiftAIWordTagger%201.mlmodel",
+    "modifiedDate" : "2026-05-29T18:04:37Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-05-29T18:11:07Z",
+  "preferredFilename" : "SwiftAIWordTagger 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "iterationCount" : 25,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "suggestedColumnTypes" : [
+      "Sequence",
+      "Sequence"
+    ],
+    "suggestedColumnValues" : [
+      "",
+      ""
+    ],
+    "suggestedColumns" : [
+      "labels",
+      "tokens"
+    ],
+    "taskType" : "wordTagger",
+    "transferLearningEmbeddingType" : "dynamic",
+    "wtAlgorithmType" : "crf",
+    "wtLabelColumn" : "labels",
+    "wtTokenColumn" : "tokens"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "trained",
+  "title" : "SwiftAIWordTagger 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+
+    },
+    "dataResult" : {
+      "classesCount" : 6,
+      "columnTypes" : [
+        "Sequence",
+        "Sequence"
+      ],
+      "columnValues" : [
+        "",
+        ""
+      ],
+      "columns" : [
+        "labels",
+        "tokens"
+      ],
+      "createdDate" : "2026-05-29T18:04:37Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+
+        },
+        "issues" : [
+          {
+            "description" : "File has two or more columns",
+            "severity" : "info"
+          },
+          {
+            "description" : "Columns are correctly selected",
+            "severity" : "info"
+          },
+          {
+            "description" : "Label count is less than token count.",
+            "severity" : "info"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 1,
+          "classCount" : 6,
+          "sampleCount" : 386
+        }
+      },
+      "dataSourceID" : "477A9D2E-3A8F-42D0-831E-C95F7DAD1172",
+      "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/SwiftAI/train.json",
+      "itemsCount" : 386
+    },
+    "dataSourceID" : "477A9D2E-3A8F-42D0-831E-C95F7DAD1172",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-05-29T18:11:02Z",
+    "progress" : [
+      {
+        "count" : 1,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1,
+        "wtTrainingColumnHeader" : {
+          "elapsedTime" : 0,
+          "hasTraining" : true,
+          "hasValidation" : false,
+          "remainingIterationCount" : 10,
+          "trainingAccuracy" : 0.8875,
+          "validationAccuracy" : 0
+        }
+      },
+      {
+        "count" : 2,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1,
+        "wtTrainingColumnHeader" : {
+          "elapsedTime" : 0,
+          "hasTraining" : true,
+          "hasValidation" : false,
+          "remainingIterationCount" : 9,
+          "trainingAccuracy" : 0.8986,
+          "validationAccuracy" : 0
+        }
+      },
+      {
+        "count" : 3,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1,
+        "wtTrainingColumnHeader" : {
+          "elapsedTime" : 0,
+          "hasTraining" : true,
+          "hasValidation" : false,
+          "remainingIterationCount" : 8,
+          "trainingAccuracy" : 0.9132,
+          "validationAccuracy" : 0
+        }
+      },
+      {
+        "count" : 4,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1,
+        "wtTrainingColumnHeader" : {
+          "elapsedTime" : 0,
+          "hasTraining" : true,
+          "hasValidation" : false,
+          "remainingIterationCount" : 7,
+          "trainingAccuracy" : 0.9132,
+          "validationAccuracy" : 0
+        }
+      },
+      {
+        "count" : 5,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1,
+        "wtTrainingColumnHeader" : {
+          "elapsedTime" : 0,
+          "hasTraining" : true,
+          "hasValidation" : false,
+          "remainingIterationCount" : 6,
+          "trainingAccuracy" : 0.9115,
+          "validationAccuracy" : 0
+        }
+      },
+      {
+        "count" : 6,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1,
+        "wtTrainingColumnHeader" : {
+          "elapsedTime" : 0,
+          "hasTraining" : true,
+          "hasValidation" : false,
+          "remainingIterationCount" : 5,
+          "trainingAccuracy" : 0.9115,
+          "validationAccuracy" : 0
+        }
+      },
+      {
+        "count" : 7,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1,
+        "wtTrainingColumnHeader" : {
+          "elapsedTime" : 0,
+          "hasTraining" : true,
+          "hasValidation" : false,
+          "remainingIterationCount" : 4,
+          "trainingAccuracy" : 0.9124,
+          "validationAccuracy" : 0
+        }
+      },
+      {
+        "count" : 8,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 1,
+        "wtTrainingColumnHeader" : {
+          "elapsedTime" : 0,
+          "hasTraining" : true,
+          "hasValidation" : false,
+          "remainingIterationCount" : 3,
+          "trainingAccuracy" : 0.9124,
+          "validationAccuracy" : 0
+        }
+      },
+      {
+        "count" : 37,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 67,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 97,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 127,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 157,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 187,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 217,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 247,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 277,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 307,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 337,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 367,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 0
+      }
+    ],
+    "snapshottableCheckpoints" : {
+
+    },
+    "startTime" : "2026-05-29T18:11:00Z",
+    "trainingAccuracy" : 0.971968349383549,
+    "trainingResults" : {
+      "wordTagger" : {
+        "accuracy" : 0.971968349383549,
+        "confusionMatrix" : [
+          {
+            "actual" : "IDENTIFIER",
+            "count" : 1699,
+            "expected" : "IDENTIFIER"
+          },
+          {
+            "actual" : "IDENTIFIER",
+            "count" : 16,
+            "expected" : "LITERAL"
+          },
+          {
+            "actual" : "IDENTIFIER",
+            "count" : 139,
+            "expected" : "O"
+          },
+          {
+            "actual" : "IDENTIFIER",
+            "count" : 28,
+            "expected" : "SYMBOL"
+          },
+          {
+            "actual" : "IDENTIFIER",
+            "count" : 1,
+            "expected" : "TYPE"
+          },
+          {
+            "actual" : "KEYWORD",
+            "count" : 2,
+            "expected" : "IDENTIFIER"
+          },
+          {
+            "actual" : "KEYWORD",
+            "count" : 456,
+            "expected" : "KEYWORD"
+          },
+          {
+            "actual" : "KEYWORD",
+            "count" : 11,
+            "expected" : "O"
+          },
+          {
+            "actual" : "LITERAL",
+            "count" : 3,
+            "expected" : "IDENTIFIER"
+          },
+          {
+            "actual" : "LITERAL",
+            "count" : 443,
+            "expected" : "LITERAL"
+          },
+          {
+            "actual" : "LITERAL",
+            "count" : 6,
+            "expected" : "O"
+          },
+          {
+            "actual" : "LITERAL",
+            "count" : 1,
+            "expected" : "SYMBOL"
+          },
+          {
+            "actual" : "O",
+            "count" : 5,
+            "expected" : "IDENTIFIER"
+          },
+          {
+            "actual" : "O",
+            "count" : 100,
+            "expected" : "LITERAL"
+          },
+          {
+            "actual" : "O",
+            "count" : 9790,
+            "expected" : "O"
+          },
+          {
+            "actual" : "O",
+            "count" : 9,
+            "expected" : "SYMBOL"
+          },
+          {
+            "actual" : "O",
+            "count" : 1,
+            "expected" : "TYPE"
+          },
+          {
+            "actual" : "SYMBOL",
+            "count" : 23,
+            "expected" : "IDENTIFIER"
+          },
+          {
+            "actual" : "SYMBOL",
+            "count" : 17,
+            "expected" : "LITERAL"
+          },
+          {
+            "actual" : "SYMBOL",
+            "count" : 40,
+            "expected" : "O"
+          },
+          {
+            "actual" : "SYMBOL",
+            "count" : 2886,
+            "expected" : "SYMBOL"
+          },
+          {
+            "actual" : "SYMBOL",
+            "count" : 6,
+            "expected" : "TYPE"
+          },
+          {
+            "actual" : "TYPE",
+            "count" : 49,
+            "expected" : "O"
+          },
+          {
+            "actual" : "TYPE",
+            "count" : 572,
+            "expected" : "TYPE"
+          }
+        ],
+        "statsByLabel" : {
+          "IDENTIFIER" : {
+            "count" : 1883,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.98094688221709,
+                "recall" : 0.9022835900159321
+              }
+            }
+          },
+          "KEYWORD" : {
+            "count" : 469,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 0.9722814498933902
+              }
+            }
+          },
+          "LITERAL" : {
+            "count" : 453,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.7690972222222222,
+                "recall" : 0.977924944812362
+              }
+            }
+          },
+          "O" : {
+            "count" : 9905,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.9755854509217738,
+                "recall" : 0.9883897021706209
+              }
+            }
+          },
+          "SYMBOL" : {
+            "count" : 2972,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.9870041039671683,
+                "recall" : 0.9710632570659489
+              }
+            }
+          },
+          "TYPE" : {
+            "count" : 621,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.9862068965517241,
+                "recall" : 0.9210950080515298
+              }
+            }
+          }
+        }
+      }
+    },
+    "validationAccuracy" : 0.9407766990291262,
+    "validationResults" : {
+      "wordTagger" : {
+        "accuracy" : 0.9407766990291262,
+        "confusionMatrix" : [
+          {
+            "actual" : "IDENTIFIER",
+            "count" : 139,
+            "expected" : "IDENTIFIER"
+          },
+          {
+            "actual" : "IDENTIFIER",
+            "count" : 1,
+            "expected" : "LITERAL"
+          },
+          {
+            "actual" : "IDENTIFIER",
+            "count" : 11,
+            "expected" : "O"
+          },
+          {
+            "actual" : "IDENTIFIER",
+            "count" : 2,
+            "expected" : "SYMBOL"
+          },
+          {
+            "actual" : "KEYWORD",
+            "count" : 49,
+            "expected" : "KEYWORD"
+          },
+          {
+            "actual" : "KEYWORD",
+            "count" : 2,
+            "expected" : "O"
+          },
+          {
+            "actual" : "KEYWORD",
+            "count" : 1,
+            "expected" : "TYPE"
+          },
+          {
+            "actual" : "LITERAL",
+            "count" : 28,
+            "expected" : "LITERAL"
+          },
+          {
+            "actual" : "LITERAL",
+            "count" : 5,
+            "expected" : "O"
+          },
+          {
+            "actual" : "LITERAL",
+            "count" : 2,
+            "expected" : "SYMBOL"
+          },
+          {
+            "actual" : "O",
+            "count" : 8,
+            "expected" : "LITERAL"
+          },
+          {
+            "actual" : "O",
+            "count" : 510,
+            "expected" : "O"
+          },
+          {
+            "actual" : "O",
+            "count" : 5,
+            "expected" : "SYMBOL"
+          },
+          {
+            "actual" : "O",
+            "count" : 2,
+            "expected" : "TYPE"
+          },
+          {
+            "actual" : "SYMBOL",
+            "count" : 2,
+            "expected" : "IDENTIFIER"
+          },
+          {
+            "actual" : "SYMBOL",
+            "count" : 9,
+            "expected" : "O"
+          },
+          {
+            "actual" : "SYMBOL",
+            "count" : 217,
+            "expected" : "SYMBOL"
+          },
+          {
+            "actual" : "TYPE",
+            "count" : 11,
+            "expected" : "O"
+          },
+          {
+            "actual" : "TYPE",
+            "count" : 26,
+            "expected" : "TYPE"
+          }
+        ],
+        "statsByLabel" : {
+          "IDENTIFIER" : {
+            "count" : 153,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.9858156028368794,
+                "recall" : 0.9084967320261438
+              }
+            }
+          },
+          "KEYWORD" : {
+            "count" : 52,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 0.9423076923076923
+              }
+            }
+          },
+          "LITERAL" : {
+            "count" : 35,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.7567567567567568,
+                "recall" : 0.8
+              }
+            }
+          },
+          "O" : {
+            "count" : 525,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.9306569343065694,
+                "recall" : 0.9714285714285714
+              }
+            }
+          },
+          "SYMBOL" : {
+            "count" : 228,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.9601769911504425,
+                "recall" : 0.9517543859649122
+              }
+            }
+          },
+          "TYPE" : {
+            "count" : 37,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.896551724137931,
+                "recall" : 0.7027027027027027
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-05-29T18:04:37Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

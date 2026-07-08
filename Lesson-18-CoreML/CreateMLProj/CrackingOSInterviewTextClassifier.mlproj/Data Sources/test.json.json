@@ -1,0 +1,31 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-05-29T18:03:08Z",
+        "event" : "dataSourceCreated",
+        "id" : "55C5CA83-9093-4D4A-BE14-C6363D009D63",
+        "subtitle" : "test.json",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2026-05-29T18:03:08Z",
+  "dataPathRelativeToProjectURL" : "../../../../../../../Work/KCClaude/Experimentals/MLDataModels/TrainData/CrackingtheiOSInterview_v1.0/test.json/",
+  "dataResult" : {
+    "createdDate" : "2026-05-29T18:03:08Z",
+    "dataSourceID" : "3A6FE4E0-E6F5-4CB8-9D3F-05E6F8FA3573",
+    "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/CrackingtheiOSInterview_v1.0/test.json"
+  },
+  "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/CrackingtheiOSInterview_v1.0/test.json",
+  "experimentIDs" : [
+    "B24DC793-7C74-48F8-8964-9CA8F49A4A3A"
+  ],
+  "id" : "3A6FE4E0-E6F5-4CB8-9D3F-05E6F8FA3573",
+  "modifiedDate" : "2026-05-29T18:03:08Z",
+  "pathType" : 0,
+  "preferredFilename" : "test.json",
+  "title" : "test.json",
+  "version" : "1.0"
+}

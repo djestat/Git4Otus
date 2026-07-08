@@ -1,0 +1,31 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-05-29T18:00:53Z",
+        "event" : "dataSourceCreated",
+        "id" : "5BEA1D72-4B9F-40A7-A2CB-416FAB378230",
+        "subtitle" : "train.json",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2026-05-29T18:00:53Z",
+  "dataPathRelativeToProjectURL" : "../../../../../../../Work/KCClaude/Experimentals/MLDataModels/TrainData/Swift%20%D0%A3%D1%81%D0%BE%D0%B2%206%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5/train.json/",
+  "dataResult" : {
+    "createdDate" : "2026-05-29T18:00:53Z",
+    "dataSourceID" : "1D24A7FA-EDFD-46E4-B338-9AE7AE2CF385",
+    "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/Swift%20%D0%A3%D1%81%D0%BE%D0%B2%206%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5/train.json"
+  },
+  "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/Swift%20%D0%A3%D1%81%D0%BE%D0%B2%206%20%D0%B8%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5/train.json",
+  "experimentIDs" : [
+    "4609A68A-57E0-4339-B630-D35F69160400"
+  ],
+  "id" : "1D24A7FA-EDFD-46E4-B338-9AE7AE2CF385",
+  "modifiedDate" : "2026-05-29T18:00:53Z",
+  "pathType" : 0,
+  "preferredFilename" : "train.json",
+  "title" : "train.json",
+  "version" : "1.0"
+}

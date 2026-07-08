@@ -1,0 +1,41 @@
+{
+  "activityEntities" : [
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-05-29T18:11:00Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "EE8EC488-8334-4B61-BC4F-67DC3DE902D5",
+        "subtitle" : "SwiftAIWordTagger 1",
+        "title" : "Used By"
+      }
+    ],
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-05-29T18:11:00Z",
+        "event" : "dataSourceMetrics",
+        "id" : "46923A7D-873B-4CF4-986C-3E409C7989B2",
+        "subtitle" : "6 Classes, 386 Items",
+        "title" : "Data Summary"
+      }
+    ]
+  ],
+  "createdDate" : "2026-05-29T18:10:21Z",
+  "dataPathRelativeToProjectURL" : "../../../../../../../Work/KCClaude/Experimentals/MLDataModels/TrainData/SwiftAI/train.json/",
+  "dataResult" : {
+    "createdDate" : "2026-05-29T18:10:21Z",
+    "dataSourceID" : "477A9D2E-3A8F-42D0-831E-C95F7DAD1172",
+    "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/SwiftAI/train.json"
+  },
+  "dataURL" : "file:///Users/igor/Documents/Work/KCClaude/Experimentals/MLDataModels/TrainData/SwiftAI/train.json",
+  "experimentIDs" : [
+    "7E1C4547-8A94-4E42-BECF-5E65AD8127E5"
+  ],
+  "id" : "477A9D2E-3A8F-42D0-831E-C95F7DAD1172",
+  "modifiedDate" : "2026-05-29T18:11:00Z",
+  "pathType" : 0,
+  "preferredFilename" : "train.json",
+  "title" : "train.json",
+  "version" : "1.0"
+}

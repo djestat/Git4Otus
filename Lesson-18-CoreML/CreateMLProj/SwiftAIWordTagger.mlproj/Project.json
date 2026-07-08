@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-05-29T18:04:36Z",
+        "event" : "projectCreated",
+        "id" : "B292C27E-2EFF-41EE-9B86-1DD837D1FFB5",
+        "subtitle" : "SwiftAIWordTagger",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Igor",
+  "createdDate" : "2026-05-29T18:04:36Z",
+  "description" : "",
+  "id" : "625D5A83-0894-498B-A621-7B5D8CB0975E",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-05-29T18:04:36Z",
+  "projectName" : "SwiftAIWordTagger",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "wordTagger",
+  "title" : "Word Tagging",
+  "version" : "1.1"
+}
